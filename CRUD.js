@@ -10,7 +10,7 @@ class Todo_Class {
     add() {
         const todoInput = document.querySelector("#myInput").value;
         if (todoInput == "") {
-            alert("Add some tasks!")
+            alert("bina add kiya kyun click kr raha hai")
         } else {
             const todoObject = {
                 id : todoObjectList.length,
